@@ -4,7 +4,8 @@
 
 [Live page here](https://eddy-hub19.github.io/soyummy/)
 
-Links to:
+## Links to:
+
 [SWAGGER](https://determined-ruby-nematode.cyclic.app/api-docs/)
 
 [BACKEND](https://github.com/Eddy-hub19/souyummy_backend)
@@ -36,6 +37,8 @@ You can create your own recipe, add ingredients, description and instruction how
 
 ## Technologies:
 
-DB : MongoDB
-BACKEND: Node.js, express, mongoose
-FRONTEND: React, Redux, JS, HTML, CSS, styled component, Material UI, Formik, asios.
+1. DB : MongoDB
+
+2. BACKEND: Node.js, express, mongoose
+
+3. FRONTEND: React, Redux, JS, HTML, CSS, Styled component, Material UI, Formik, Asios.
