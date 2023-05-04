@@ -52,9 +52,6 @@ const AddRecipe = () => {
 
   const [ingrId, setIngrId] = useState([]);
 
-  console.log(ingrId);
-  console.log(userIngredients);
-
   const handleDecrement = () => {
     if (userIngredients.length < 0) return;
     setUserIngredients((prev) => [...prev.slice(0, prev.length - 1)]);
@@ -80,7 +77,6 @@ const AddRecipe = () => {
   const handleFile = ({ currentTarget }) => {
     const { files } = currentTarget;
     const [file] = files;
-    console.log(file);
     let allowedImageTypes = ["image/jpeg", "image/png"];
     if (!file || !allowedImageTypes.includes(file.type)) {
       toast.error("Wrong file type. Please, choose different image type", {
@@ -93,7 +89,6 @@ const AddRecipe = () => {
         progress: undefined,
         theme: "light",
       });
-      console.log("file" + JSON.stringify(file));
       // setFile(null);
       setPath("");
       return;
@@ -133,13 +128,11 @@ const AddRecipe = () => {
 
   const handleQtyChange = (selectedOption, { name }) => {
     const [key, id] = name.split(" ");
-    console.log(key);
 
     setUserIngredients((prev) => {
       const index = prev.findIndex((el) => el.id === id);
       const item = { ...prev[index] };
       item[key] = selectedOption.value;
-      console.log(item[key]);
       prev[index] = item;
       return [...prev];
     });

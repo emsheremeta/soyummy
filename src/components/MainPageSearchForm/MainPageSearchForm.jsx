@@ -26,7 +26,6 @@ export const MainPageSearchForm = ({ keyword }) => {
 
   const handleInputChange = (event) => {
     setRKeyword(event.target.value);
-    console.log(rKeyword);
   };
 
   return (

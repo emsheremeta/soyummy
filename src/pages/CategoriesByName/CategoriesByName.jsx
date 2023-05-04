@@ -23,7 +23,7 @@ const CategoriesByName = () => {
         return setRecipes(data);
       });
     } catch (error) {
-      console.log(error);
+      error;
     }
   }, [categoryName, category]);
 

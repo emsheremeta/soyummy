@@ -27,7 +27,6 @@ const SearchPage = () => {
   const MESSAGE = "Sorry, not found. Try something else";
 
   const handleSubmit = async ({ keyword, searchType }) => {
-    console.log("submit");
     setPage(1);
     setKeyword(keyword);
     setSearchType(searchType);
@@ -44,7 +43,6 @@ const SearchPage = () => {
           setStatus("rejected");
           console.log("no recipes found");
         } else {
-          console.log(data.data);
           setRecipes(
             [...recipes, ...data.data.recepies].filter((v, i, a) => a.findIndex((v2) => v2._id === v._id) === i)
           );

@@ -13,7 +13,7 @@ export const deleteFavorite = (id) => {
 };
 
 export const addFavorite = (id) => {
-  console.log(`/favorite/add/${id}`);
+  
   return axiosInstance.put(`/favorite/add/${id}`, {}).then(({ data }) => {
     return data;
   });
