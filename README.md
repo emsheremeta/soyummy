@@ -1,39 +1,41 @@
-
 ## SOYUMMY - FRONT-END
 
 🍏 WELCOME TO SOYUMMY 🍏
 
-[Посилання на живу сторінку...](https://eddy-hub19.github.io/soyummy/)
+[Live page here](https://eddy-hub19.github.io/soyummy/)
 
-Посилання на:
-[SWAGGER](https://souyummy-backend.onrender.com/api-docs)
+Links to:
+[SWAGGER](https://determined-ruby-nematode.cyclic.app/api-docs/)
 
-Посиланная на:
-[BACK-END](https://github.com/Eddy-hub19/souyummy_backend)
+[BACKEND](https://github.com/Eddy-hub19/souyummy_backend)
 
-## Про проект:
+## About this project
 
-SoYummy - це web-застосунок, призначений для пошуку рецептів страв та додаванню власних рецептів. Повністю адаптивний, тож ним зручно користуватись на будь-якому девайсі.
-Зручний для користувача, та простий в використанні
+SoYummy - this is web application which you can use for searching dishes and adding your own recipes.
+Here you can find different categories such as: breakfast, beef, chicken, desserts, salates etc.
+You can create your own recipe, add ingredients, description and instruction how to prepare the dish.
 
+## Why SoYummy
 
-## Особливості
+- Light/Dark theme
+- Ability to add your own recipe
+- Cross-platform software
+- Subscribe/Unsubscribe
 
-- Світла / Темна тема
-- Додавання власних рецептів
-- Кросплатформеність
-- Підписка користувача на новини нашого продукту
+## For running this application on your PC :
 
-## Для локального запуску програми на Вашому пристрої:
+1. Make sure that you have the latest LTS-version Node.js. Download and install it if necessary.
 
+2. npm install.
 
-1. Переконайтеся, що на комп'ютері встановлено LTS-версію Node.js. Скачай та встанови її якщо потрібно.
+3. npm start.
 
-2. Встанови базові залежності проекту командою npm install.
+4. Go to http://localhost:3000.
 
-3. Запусти режим розробки, виконавши команду npm start.
+5.To run project locally, please create .env text file in the root folder. For backend add [URL](https://determined-ruby-nematode.cyclic.app) )
 
-4. Перейди у браузері за адресою http://localhost:3000. Ця сторінка буде автоматично перезавантажуватись після збереження змін у файлах проекту.
+## Technologies:
 
-5. Для локальної роботи програми в корені проекту необхідно створити файл .env приклад .env.example (Для підключення 
-back-end вказати значення - [URL](https://souyummy-backend.onrender.com) )
+DB : MongoDB
+BACKEND: Node.js, express, mongoose
+FRONTEND: React, Redux, JS, HTML, CSS, styled component, Material UI, Formik, asios.
