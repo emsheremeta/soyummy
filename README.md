@@ -33,7 +33,7 @@ You can create your own recipe, add ingredients, description and instruction how
 
 4. Go to http://localhost:3000.
 
-5.To run project locally, please create .env text file in the root folder. For backend add [URL](https://determined-ruby-nematode.cyclic.app) )
+5. To run project locally, please create .env text file in the root folder. For backend add [URL](https://determined-ruby-nematode.cyclic.app) )
 
 ## Technologies:
 
